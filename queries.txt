@@ -1,0 +1,56 @@
+). ?- consult(['c:/Users/hanee/Desktop/5th year 1st term/ai lab/lab3/Haneen.pl']
+true.
+
+15 ?- male(abdulaziz).
+true.
+
+16 ?- female(haneen).
+true.
+
+17 ?- male(zahra).
+false.
+
+18 ?- father(abdulaziz,mohammed).
+true.
+
+19 ?- father(abdualziz,omar).
+false.
+
+20 ?- mother(shaqra,haneen).
+true.
+
+21 ?- mother(shaqra,huda).
+false.
+
+22 ?- sister(haneen,zahra).
+true .
+
+23 ?- sister(haneen,mohammed).
+true .
+
+24 ?- sister(zahra,zahra).
+false.
+
+25 ?- brother(mohammed,haneen).
+true .
+
+26 ?- brother(mohammed,tana).
+false.
+
+27 ?- brother(yazan,dana).
+true.
+
+28 ?- sister(dana,yazan).
+true.
+
+29 ?- parent(zahra).
+ERROR: Unknown procedure: user:parent/1
+ERROR:     However, there are definitions for:
+ERROR:         parent/2
+false.
+
+30 ?- parent(zahra,dana).
+true.
+
+31 ?- parent(mohammed,aziz).
+true.
